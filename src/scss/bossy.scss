@@ -1,3 +1,4 @@
+/* BOSSY INPUT SECTION */
 .bossy-input {
 	input{
 		border: 0;
@@ -72,6 +73,8 @@
 	animation-name: bounce;
 }
 
+/* BOSSY FORM SECTION */
+
 bossy-form{
 	padding: 10px;
 	form{
@@ -93,6 +96,16 @@ bossy-form{
 }
 
 bossy-calendar {
+	.p {
+		cursor: pointer;
+	}
+	table {
+		min-width: 214px;
+	}
+	td {
+		padding: 4px;
+		text-align: center;
+	}
 	.day-in-month {
 		font-weight: 700;
 	}
